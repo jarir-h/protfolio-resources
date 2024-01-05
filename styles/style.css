@@ -1,0 +1,44 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
+  body{
+    font-family: Open Sans;  
+  }
+  .btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    padding: 15px 35px;
+  }
+  .orange{
+    color:#FD6E0A;
+  }
+/*          nav style         */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    color: #474747;
+    text-decoration: none;
+}
