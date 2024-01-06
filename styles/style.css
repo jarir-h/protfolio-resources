@@ -198,3 +198,36 @@ main section{
     text-align: center;
     margin: 50px 0;
 }
+
+/*    footer   style   */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 100px 150px;
+    margin-top: 100px;
+}
+.footer-colum{
+   width: 50%;
+}
+.footer-colum .section-title{
+    text-align: left;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 100%;
+}
+.section-discription{
+    margin-bottom: 30px;
+}
+.social-links a{
+    margin-right: 25px;
+    padding-top: 10px;
+}
