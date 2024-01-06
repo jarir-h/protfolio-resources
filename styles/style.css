@@ -2,19 +2,23 @@
     padding: 0px;
     margin: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
   body{
     font-family: Open Sans;  
   }
   .btn-primary{
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #fa6800;
     font-size: 20px;
     font-weight: 700;
     color: #fff;
     border: none;
     padding: 12px 30px;
+    transition: 1s;
+  }
+  .btn-primary:hover{
+    background: rgba(253, 111, 10, 0.452);
+    color: #fa6800;
   }
   .orange{
     color:#FD6E0A;
@@ -28,7 +32,7 @@ nav{
     padding-top: 30px;
 }
 .nav-title{
-color: var(--Dark-01, #181818);
+color: #1d1b1b;
 font-size: 45px;
 font-weight: 800;
 }
@@ -63,9 +67,6 @@ nav li a{
     width: 500px;
     height: 500px;
 }
-.banner-content{
-
-}
 .banner-greeting{
     font-size: 45px;
     font-weight: 600;
@@ -88,6 +89,13 @@ nav li a{
 
 /*  main section style   */
 
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
 .about{
     border-radius: 10px;
     background: #FFF8F3;
@@ -99,6 +107,7 @@ nav li a{
     font-size: 35px;
     font-weight: 700;
     color: #181818;
+    margin-bottom: 20px;
 }
 .section-description{
     color: #757575;
@@ -106,4 +115,86 @@ nav li a{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin-top: 30px;
+}
+.info-title{
+    color: #5a5959;
+    font-size: 20px;
+}
+.info-description{
+    color: #0a0a0a;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/*       Skills Style    */
+
+#description{
+    padding: 0 150px 30px 150px;
+    text-align: center;
+    color: #5a5959;
+}
+.skills-container{
+   display: flex;
+   gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff9f9;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-discription{
+    color: #5a5959;
+    margin-top: 10px;
+}
+
+/*   Resume    Section    */
+
+.resume-title{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-iteme-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 20px;
+}
+.rusume-iteme-instetute{
+    color: rgb(117, 117, 117);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.resume-iteme-discription{
+    color: #afadad;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.downlod-cv{
+    text-align: center;
+    margin: 50px 0;
 }
